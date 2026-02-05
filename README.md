@@ -1,37 +1,124 @@
-# web-app-test-plan-and-cases
-QA testing project demonstrating test planning, scenario design, functional and non-functional testing, and defect reporting.
+# Web App Test Plan and Cases
 
 ## Overview
-This project demonstrates a structured approach to testing a web application,
-covering test planning, scenario-based testing, functional validation,
-non-functional considerations, and defect reporting.
+This repository contains a QA testing project where I tested a sample web
+application end to end and documented the work the same way I would on a real
+QA project.
 
-The focus is on quality, risk awareness, and clear documentation rather than
-test volume.
+The intent of this repository is to show **how I think about testing**, not
+just the final outputs. It covers planning, scenario design, detailed test
+cases, and how issues are documented and communicated.
+
+The focus is on quality, risk awareness, and clarity rather than test volume.
+
+---
 
 ## Application Under Test
 https://www.saucedemo.com
 
+---
+
+## What I Did in This Project
+
+While working on this project, I followed a structured and practical testing
+approach:
+
+- Reviewed the application to understand core user workflows and potential
+  risk areas
+- Defined a **test strategy** to clarify scope, priorities, and the overall
+  testing approach
+- Created **test scenarios** to describe what should be tested based on real
+  user behavior
+- Designed **detailed test cases** for each major module, written in a way
+  that can be executed and repeated
+- Included **negative and edge-case scenarios** where appropriate
+- Considered **non-functional aspects** such as usability, session handling,
+  and basic security behavior
+- Documented issues using **JIRA-style tickets** to demonstrate defect
+  tracking and communication practices
+
+The goal was to reflect how testing is planned, executed, and communicated
+within real QA teams.
+
+---
+
 ## Testing Scope
-- Authentication
-- Product listing
-- Cart management
-- Session handling
 
-## Testing Types
-- Smoke Testing
-- Functional Testing
-- Regression Testing
-- Usability Testing
-- Basic Security Checks
+The following areas were covered:
 
-## Tools & Artifacts
-- Test strategy and planning documents
-- Test scenarios and test cases
-- Defect log with impact analysis
-- GitHub for version control
+- Authentication (login, logout, input validation)
+- Session handling and access control
+- Product listing (inventory)
+- Product Detail Page (PDP)
+- Cart functionality
+- Checkout flow
+- Basic security and negative scenarios
 
-## Key Outcomes
-- Identified high-risk areas and prioritized testing accordingly
+---
+
+## Testing Types Applied
+
+- Smoke Testing  
+- Functional Testing  
+- Regression Testing  
+- Usability Testing  
+- Basic Security Checks  
+
+---
+
+## Repository Structure
+
+The repository is organized for easy review:
+
+- **Test_Strategy/**  
+  Contains the test strategy outlining scope, approach, risks, and entry/exit
+  criteria.
+
+- **Test_Scenarios/**  
+  High-level test scenarios describing what was tested and why, based on user
+  workflows and risk areas.
+
+- **Test_Cases/**  
+  Detailed test cases written in Excel and organized by module, including:
+  - Authentication
+  - Session management
+  - Inventory
+  - Product Detail Page (PDP)
+  - Cart
+  - Checkout
+  - Security
+
+- **Jira_Tickets/**  
+  Sample JIRA-style defect tickets created to show how issues were logged,
+  prioritized, and communicated during testing.
+
+---
+
+## Defect Tracking Approach
+
+Issues identified during testing were documented using a JIRA-style format.
+Each ticket includes:
+
+- Clear steps to reproduce
+- Expected versus actual behavior
+- Severity and priority assessment
+- Impact explanation
+
+These examples are included to demonstrate my approach to defect tracking and
+communication. They are not taken from a live JIRA system.
+
+---
+
+## Key Takeaways
+
+- Used a **risk-based and scenario-driven** approach to testing
 - Designed test cases aligned with real user workflows
-- Logged defects with clear reproduction steps and impact
+- Focused on clarity and usefulness in defect documentation
+- Organized testing artifacts so reviewers can quickly understand what was
+  tested and how
+
+---
+
+If you’re reviewing this repository as a hiring manager, everything is
+structured so you can easily see **what was tested, how it was tested, and how
+issues were documented and communicated**.
