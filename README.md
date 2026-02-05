@@ -117,8 +117,3 @@ communication. They are not taken from a live JIRA system.
 - Organized testing artifacts so reviewers can quickly understand what was
   tested and how
 
----
-
-If you’re reviewing this repository as a hiring manager, everything is
-structured so you can easily see **what was tested, how it was tested, and how
-issues were documented and communicated**.
