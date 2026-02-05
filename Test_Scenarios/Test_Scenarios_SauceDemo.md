@@ -1,4 +1,4 @@
-# Test Scenarios – SauceDemo (Detailed)
+# Test Scenarios – SauceDemo
 
 ## Goal
 Provide scenario-based coverage of key user workflows and common failure modes for authentication, product browsing, cart management, and checkout. Scenarios emphasize user impact, data integrity, session behavior, and clear system feedback.
